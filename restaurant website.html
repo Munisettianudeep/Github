@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delicious Bites Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .hero {
+      background-image: url('https://source.unsplash.com/1600x600/?restaurant,food');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3em;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .menu-item {
+      margin-bottom: 15px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delicious Bites</h1>
+    <p>Fresh. Local. Tasty.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Welcome to Delicious Bites
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Delicious Bites, we offer mouth-watering dishes made with fresh, local ingredients. Come enjoy a cozy dining experience with friendly service and unforgettable food.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <strong>Grilled Chicken Sandwich</strong> - $9.99<br>
+      Juicy grilled chicken breast with lettuce, tomato, and aioli on a toasted bun.
+    </div>
+    <div class="menu-item">
+      <strong>Veggie Delight Pasta</strong> - $11.50<br>
+      Penne pasta tossed with seasonal vegetables and creamy pesto sauce.
+    </div>
+    <div class="menu-item">
+      <strong>Classic Cheeseburger</strong> - $10.50<br>
+      Beef patty, cheddar cheese, pickles, onions, ketchup, and mustard.
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out for reservations or inquiries.</p>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Delicious Bites Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
